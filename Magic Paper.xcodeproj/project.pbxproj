@@ -13,6 +13,11 @@
 		B23B641E247C1A7B009E75DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23B641C247C1A7B009E75DC /* Main.storyboard */; };
 		B23B6420247C1A7E009E75DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23B641F247C1A7E009E75DC /* Assets.xcassets */; };
 		B23B6423247C1A7E009E75DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23B6421247C1A7E009E75DC /* LaunchScreen.storyboard */; };
+		B23B642D247C1CB9009E75DC /* original.png in Resources */ = {isa = PBXBuildFile; fileRef = B23B642A247C1CB8009E75DC /* original.png */; };
+		B23B642E247C1CB9009E75DC /* temp.png in Resources */ = {isa = PBXBuildFile; fileRef = B23B642B247C1CB8009E75DC /* temp.png */; };
+		B23B642F247C1CB9009E75DC /* temp.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B23B642C247C1CB9009E75DC /* temp.mp4 */; };
+		B23B6433247C39F9009E75DC /* harrypotter.png in Resources */ = {isa = PBXBuildFile; fileRef = B23B6432247C39F9009E75DC /* harrypotter.png */; };
+		B23B6435247C3A9A009E75DC /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B23B6434247C3A9A009E75DC /* harrypotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		B23B641F247C1A7E009E75DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23B6422247C1A7E009E75DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B23B6424247C1A7E009E75DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B23B642A247C1CB8009E75DC /* original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original.png; sourceTree = "<group>"; };
+		B23B642B247C1CB8009E75DC /* temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp.png; sourceTree = "<group>"; };
+		B23B642C247C1CB9009E75DC /* temp.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = temp.mp4; sourceTree = "<group>"; };
+		B23B6432247C39F9009E75DC /* harrypotter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harrypotter.png; sourceTree = "<group>"; };
+		B23B6434247C3A9A009E75DC /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 		B23B6415247C1A7B009E75DC /* Magic Paper */ = {
 			isa = PBXGroup;
 			children = (
+				B23B642A247C1CB8009E75DC /* original.png */,
+				B23B642C247C1CB9009E75DC /* temp.mp4 */,
+				B23B6432247C39F9009E75DC /* harrypotter.png */,
+				B23B642B247C1CB8009E75DC /* temp.png */,
+				B23B6434247C3A9A009E75DC /* harrypotter.mp4 */,
 				B23B6416247C1A7B009E75DC /* AppDelegate.swift */,
 				B23B6418247C1A7B009E75DC /* art.scnassets */,
 				B23B641A247C1A7B009E75DC /* ViewController.swift */,
@@ -125,10 +140,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23B642F247C1CB9009E75DC /* temp.mp4 in Resources */,
 				B23B6419247C1A7B009E75DC /* art.scnassets in Resources */,
 				B23B6423247C1A7E009E75DC /* LaunchScreen.storyboard in Resources */,
+				B23B6435247C3A9A009E75DC /* harrypotter.mp4 in Resources */,
 				B23B6420247C1A7E009E75DC /* Assets.xcassets in Resources */,
 				B23B641E247C1A7B009E75DC /* Main.storyboard in Resources */,
+				B23B642D247C1CB9009E75DC /* original.png in Resources */,
+				B23B6433247C39F9009E75DC /* harrypotter.png in Resources */,
+				B23B642E247C1CB9009E75DC /* temp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
